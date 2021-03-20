@@ -31,7 +31,7 @@
 #block{
     width: 20px;
     height: 20px;
-    background: white;
+    background-image:url("enemy.jpg");
     position: relative;
     top: 130px;
     left: 500px;
