@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
     overflow-x: hidden;
-    background:black ;
+    /* background:black ; */
 }
 .game{
     width: 700px;
@@ -14,13 +14,23 @@
 #character{
     width: 20px;
     height: 50px;
-    background: blue;
+    background: lightpink;
+    /* background-image:url("Character3.jpg"); */
     position: relative;
     top: 150px;
     border-radius: 10px;
+    overflow:hidden;
+}
+#character img{
+    height: 50px;
+    background: lightpink;
+    overflow: hidden;
+    position: absolute;
+    left: -15px;
+    top: 10px;
 }
 .animate{
-    animation: jump 0.3s linear;
+    animation: jump 300ms linear;
 }
 @keyframes jump{
     0%{top: 150px;}
@@ -41,6 +51,10 @@
     0%{left: 700px;}
     100%{left: -20px;}
     }
-p{
+span{
     text-align:center;
+    color: red;
+}
+p{
+    color: yellow;
 }
