@@ -16,8 +16,8 @@ var checkDead = setInterval(function () {
 
     if (blockLeft < 20 && blockLeft > -20 && characterTop >= 130) {
         block.style.animation = "none";
-        /*alert("You Dead.\n\nYour Score:" + Math.floor(counter/100)); */
-        alert();    
+        /*alert("You Dead.\n\nYour Score:" + Math.floor(counter/100)); 
+        alert(); */   
         counter = 0;
         block.style.animation = "block 1s infinite linear";
     } else {
